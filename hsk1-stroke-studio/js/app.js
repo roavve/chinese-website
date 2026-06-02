@@ -132,10 +132,9 @@
     var hero = el("section", { class: "hero reveal" }, [
       el("div", { class: "hero-left" }, [
         el("p", { class: "eyebrow", text: greeting() + " · " + niceDate() }),
-        el("h1", { class: "hero-title", html: "Write the<br><em>one hundred fifty</em>." }),
+        el("h1", { class: "hero-title", html: "Learn to write<br><em>one hundred fifty characters</em>." }),
         el("p", { class: "hero-lede", text:
-          "The foundation characters of Mandarin, one confident stroke at a time. " +
-          "Trace, correct, repeat — until the order lives in your hand." }),
+          "HSK 1 basic characters" }),
         el("div", { class: "hero-cta" }, [
           el("button", { class: "btn btn-primary", onclick: function () { go("#/practice"); } }, [
             (c.dueNow > 0 || c.neu > 0)
